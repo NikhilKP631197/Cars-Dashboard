@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src='https://cdn.plot.ly/plotly-2.11.1.min.js'></script>
+  </head>
+  <body>
+    <div class="main">
+      <h3>You searched for: Honda</h3>
+      <div class="dash">
+        <span>
+          <div class="d1">
+              <img src="./demo.jpeg">
+          </div>
+          <div class="d2">
+            <h4>Verb with Subject</h4>
+            <p>
+                {sounds, experienced, get, enjoyed, become}
+                ********************
+                
+                Adjectives : 
+                
+                {'different', 'standard', 'supercharger', 'soft', 'serious', 'new', 'minimal', 'second', 'first', 'spectacular'}
+            </p>
+          </div>
+        </span>
+        <span>
+          <div class="d3">
+            <h4>NER</h4>
+            <p>
+                second 12 18 ORDINAL
+                Lotus 19 24 ORG
+                first 29 34 ORDINAL
+                05 42 44 CARDINAL
+                190bhp 56 62 CARDINAL
+                S240 109 113 ORG
+            </p>
+          </div>
+          <div class="d4"><h4>Final Review Summary</h4>
+            <p>
+              I really enjoyed the handling and cornering of the Elise,
+              but the Exige S240 with the Track Pack is not to be believed. The
+              acceleration is spectacular; when you get on the throttle the
+              supercharger sounds like a jet engine and you quickly become one
+              with the driver seat. The capability of this car to corner hard
+              with minimal body roll is unlike anything you have experienced
+              before.
+            </p></div>
+        </span>
+        <div class="last" id="gauge">
+            
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

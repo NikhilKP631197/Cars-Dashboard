@@ -1,0 +1,123 @@
+body {
+  background-image: url(./bg.jpg);
+  /* height: 100vh; */
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face {
+  font-family: "dodger";
+  src: url("./Dodgv2.ttf");
+}
+
+h1 {
+  font-family: dodger;
+  font-size: 48px;
+}
+div.main {
+  /* height: 100vh; */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+}
+div.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(210, 195, 196, 0.7);
+  padding: 5%;
+  border-radius: 25px;
+}
+
+.search span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+input {
+  height: 40px;
+  width: 710px;
+  /* border: 1px solid black; */
+  border: none;
+  border-radius: 5px;
+  /* background-color: rgb(210, 195, 196, 0.7); */
+  padding-left: 1%;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  width: 150px;
+  cursor: pointer;
+  margin-left: 1%;
+}
+
+div.dash {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(210, 195, 196, 0.7);
+  padding: 5%;
+  border-radius: 25px;
+}
+
+div.dash span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.d1,
+.d2,
+.d3,
+.d4 {
+  /* height: auto; */
+  /* width: auto; */
+  height: 250px;
+  border: 2px solid black;
+  /* padding-top: 5%; */
+  margin-left: 10%;
+}
+
+.d1 img {
+  width: auto;
+  height: 250px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.d4,
+.d3,
+.d2 {
+  text-align: center;
+  width: auto;
+  min-width: 250px;
+  height: 250px;
+  padding: 2%;
+  font-size: 14px;
+  margin-top: 2%;
+}
+
+div.last {
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg.main-svg{
+    background: transparent !important;
+}
